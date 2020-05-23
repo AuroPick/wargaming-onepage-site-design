@@ -17,6 +17,10 @@ ul {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Navigation */
 
 .nav-container {
@@ -64,7 +68,7 @@ nav li.list-items:nth-last-of-type(1) {
 
 nav li.list-items:hover {
     background-color: rgb(223, 25, 25);
-    
+
 }
 
 nav p.list-text {
@@ -93,7 +97,7 @@ nav p.list-text {
     text-align: center;
 }
 
-.main-text {
+.main-container .main-text {
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -118,4 +122,136 @@ video {
     margin: 0 auto;
     width: 1280px;
     margin-top: 50px;
+}
+
+/*Games Section*/
+
+.games-container {
+    display: flex;
+    justify-content: center;
+}
+
+.games-wrapper {
+    padding-top: 216px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-text-container .main-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #DFDFDF;
+}
+
+.games-section {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.games-section .image {
+    width: 465px;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.games-wrapper {
+    max-width: 1605px;
+}
+
+.games-section-one>.game-one,
+.games-section-one>.game-two {
+    margin-right: 344px;
+}
+
+.game {
+    background-color: rgb(77, 77, 77);
+    border-radius: 40px;
+    width: 465px;
+    height: 625px;
+    max-height: 625px;
+    margin-bottom: 126px;
+    transition: box-shadow 400ms ease-out;
+}
+
+.game:hover {
+    box-shadow: 0 0 20px rgb(37, 37, 37);
+}
+
+.game-inside {
+    padding: 25px 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-text {
+    padding-bottom: 53px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #DFDFDF;
+}
+
+.secondary-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #DFDFDF;
+    max-width: 388px;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+    background-color: #D10505;
+    width: 283px;
+    padding: 10px 0px;
+    transition: background-color 400ms ease-out;
+}
+
+.download-section:hover {
+    background-color: #b10202;
+}
+
+.download-text-section {
+    padding-left: 21px;
+    margin: auto 0;
+}
+
+.padding-1 {
+    margin-top: 92px;
+}
+
+.padding-2 {
+    margin-top: 46px;
+}
+
+.padding-3 {
+    margin-top: 65px;
+}
+
+.padding-4 {
+    margin-top: 60px;
+}
+
+.download-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #DFDFDF;
 }
