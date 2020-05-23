@@ -1,3 +1,3 @@
 # Scratch
 
-![Scratch](img/wargaming_scratch.png)
+![Scratch](img/wargaming-scratch.png)
