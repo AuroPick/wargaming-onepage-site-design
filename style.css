@@ -371,6 +371,12 @@ video {
     padding-top: 44px;
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+
 input[type = "email"] {
     padding-left: 20px;
     padding-top: 15px;
