@@ -378,14 +378,15 @@ input[type = "email"] {
     width: 358px;
     background-color: #2B2B2B;
     border: none; 
-    color: #DFDFDF;;
-}
-
-input[placeholder = "E-Posta"] {
+    color: #DFDFDF;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
+}
+
+input[type = "email"]:focus {
+    outline: none;
 }
 
 input[type = "submit"] {
@@ -404,6 +405,10 @@ input[type = "submit"] {
 
 input[type = "submit"]:hover {
     background-color: #B10202;
+}
+
+input[type = "submit"]:focus {
+    outline: none;
 }
 
 input[value = "Abone Ol!"] {
