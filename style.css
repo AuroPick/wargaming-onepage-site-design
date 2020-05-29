@@ -302,6 +302,12 @@ video {
     flex-direction: column;
 }
 
+.footer-section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer-section-one, .footer-section-two {
     margin-right: 101px;
 }
