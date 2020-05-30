@@ -142,7 +142,6 @@ video {
 }
 
 .main-text-container .main-text {
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -371,13 +370,13 @@ video {
     justify-content: center;
 }
 
-.form {
+.subs-form {
     display: flex;
     flex-direction: column;
     padding-top: 44px;
 }
 
-input {
+input[type = "submit"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -409,10 +408,15 @@ input[type = "submit"] {
     margin-top: 37px;
     margin-left: auto;
     cursor: pointer;
-    -webkit-transition: background-color 400ms ease-out;
-    -moz-transition: background-color 400ms ease-out;
-    -o-transition: background-color 400ms ease-out;
-    transition: background-color 400ms ease-out;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #DFDFDF;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 input[type = "submit"]:hover {
@@ -423,21 +427,12 @@ input[type = "submit"]:focus {
     outline: none;
 }
 
-input[value = "Abone Ol!"] {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    color: #DFDFDF;
-}
-
 .copyright {
     margin-top: 34px;
     margin-bottom: 29px;
 }
 
 .copyright-text {
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -446,6 +441,189 @@ input[value = "Abone Ol!"] {
     text-align: right;
 }
 
+/*Form*/
+
+.sign-up, .sign-in {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.form-container {
+    width: 67.3%;
+    background-color: #1B1B1B;
+}
+
+.form-container-wrapper {
+    margin: 100px 100px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 46px;
+    height: 53px;
+    transform: rotate(45deg);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+    color: #DFDFDF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+}
+
+.close:hover {
+    color: rgb(167, 167, 167);
+}
+
+.form-header-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #DFDFDF;
+}
+
+.form-section {
+    display: flex;
+    margin-top: 95px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 76px;
+}
+
+.form-text-container {
+    margin-top: 50px;
+}
+
+.form-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #DFDFDF;
+    text-align: center;
+}
+
+label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #DFDFDF;
+}
+
+label[for = "password"], label[for = "nickname"] {
+    margin-top: 16px;
+}
+
+.form-logo {
+    width: 440px;
+}
+
+input[type = "password"] {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 358px;
+    background-color: #2B2B2B;
+    border: none; 
+    color: #DFDFDF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+input[type = "password"]:focus {
+    outline: none;
+}
+
+input[type = "text"] {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 358px;
+    background-color: #2B2B2B;
+    border: none; 
+    color: #DFDFDF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+label[class = "checkbox"] {
+    margin-top: 40px;
+}
+
+.checkbox-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding-top: 1px;
+}
+
+.checkbox-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.order-one {
+    order: -1;
+}
+
+.checkmark {
+    width: 24px;
+    height: 24px;
+    background-color: #2B2B2B;
+    border-radius: 50%;
+    position: relative;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #1B1B1B;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+#checkbox:checked ~ .checkmark::after {
+    opacity: 1;
+} 
 
 
 
