@@ -80,6 +80,10 @@ nav p.list-text {
     line-height: 30px;
     font-style: normal;
     font-weight: normal;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 /* Main */
@@ -105,6 +109,10 @@ nav p.list-text {
     font-weight: bold;
     font-size: 48px;
     color: #DFDFDF;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 .second-text-container {
@@ -119,12 +127,20 @@ nav p.list-text {
     font-size: 20px;
     color: #DFDFDF;
     width: 336px;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 video {
     margin: 0 auto;
     width: 1280px;
     margin-top: 50px;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 /*Games Section*/
@@ -147,6 +163,10 @@ video {
     font-size: 36px;
     line-height: 54px;
     color: #DFDFDF;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .games-section {
@@ -161,6 +181,10 @@ video {
     object-fit: cover;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .games-wrapper {
@@ -179,10 +203,10 @@ video {
     height: 625px;
     max-height: 625px;
     margin-bottom: 126px;
-    -webkit-transition: box-shadow 400ms ease-out;
-    -moz-transition: box-shadow 400ms ease-out;
-    -o-transition: box-shadow 400ms ease-out;
-    transition: box-shadow 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .game:nth-child(2), .game:nth-child(4) {
@@ -211,6 +235,10 @@ video {
     font-size: 24px;
     line-height: 36px;
     color: #DFDFDF;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .secondary-text {
@@ -221,6 +249,10 @@ video {
     text-align: center;
     color: #DFDFDF;
     max-width: 388px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .download-section {
@@ -229,10 +261,10 @@ video {
     background-color: #D10505;
     width: 283px;
     padding: 10px 0px;
-    -webkit-transition: background-color 400ms ease-out;
-    -moz-transition: background-color 400ms ease-out;
-    -o-transition: background-color 400ms ease-out;
-    transition: background-color 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .download-section:hover {
@@ -246,18 +278,34 @@ video {
 
 .padding-1 {
     margin-top: 92px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .padding-2 {
     margin-top: 46px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .padding-3 {
     margin-top: 65px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .padding-4 {
     margin-top: 60px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 .download-text {
@@ -294,6 +342,10 @@ video {
     font-size: 36px;
     line-height: 54px;
     color: #DFDFDF;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 .footer-section-one {
@@ -322,6 +374,13 @@ video {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.link {
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out
 }
 
 .footer-social-section a {
@@ -386,7 +445,7 @@ input[type = "email"] {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 358px;
+    width: 369px;
     background-color: #2B2B2B;
     border: none; 
     color: #DFDFDF;
@@ -394,6 +453,10 @@ input[type = "email"] {
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 input[type = "email"]:focus {
@@ -439,6 +502,10 @@ input[type = "submit"]:focus {
     line-height: 21px;
     color: #DFDFDF;
     text-align: right;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out
 }
 
 /*Form*/
@@ -457,11 +524,19 @@ input[type = "submit"]:focus {
 .form-container {
     width: 67.3%;
     background-color: #1B1B1B;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 .form-container-wrapper {
     margin: 100px 100px;
     position: relative;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 .close {
@@ -497,6 +572,10 @@ input[type = "submit"]:focus {
     font-size: 36px;
     line-height: 54px;
     color: #DFDFDF;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 .form-section {
@@ -514,6 +593,10 @@ input[type = "submit"]:focus {
     flex-direction: column;
     align-items: center;
     margin-left: 76px;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 .form-text-container {
@@ -527,6 +610,10 @@ input[type = "submit"]:focus {
     line-height: 36px;
     color: #DFDFDF;
     text-align: center;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 label {
@@ -535,6 +622,10 @@ label {
     font-size: 18px;
     line-height: 27px;
     color: #DFDFDF;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 label[for = "password"], label[for = "nickname"] {
@@ -543,13 +634,17 @@ label[for = "password"], label[for = "nickname"] {
 
 .form-logo {
     width: 440px;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 input[type = "password"] {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 358px;
+    width: 369px;
     background-color: #2B2B2B;
     border: none; 
     color: #DFDFDF;
@@ -557,6 +652,10 @@ input[type = "password"] {
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 input[type = "password"]:focus {
@@ -567,7 +666,7 @@ input[type = "text"] {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 358px;
+    width: 369px;
     background-color: #2B2B2B;
     border: none; 
     color: #DFDFDF;
@@ -575,6 +674,10 @@ input[type = "text"] {
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
 label[class = "checkbox"] {
@@ -588,7 +691,7 @@ label[class = "checkbox"] {
     line-height: 21px;
     cursor: pointer;
     margin-left: 10px;
-    padding-top: 1px;
+    padding-top: 2px;
 }
 
 .checkbox-container {

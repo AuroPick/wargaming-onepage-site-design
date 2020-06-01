@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1500px) {
+    .form-container {
+        width: 70%;
+    }
+
+    .form-logo {
+        width: 400px;
+    }
+
+    .form-text {
+        font-size: 22px;
+    }
+
+    .signup-right {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    video {
+        width: 1000px;
+    }
+
+    .main-container .header-main-text {
+        font-size: 36px;
+    }
+
+    .second-text {
+        font-size: 16px;
+    }
+
+    nav li.list-items {
+        width: 90px;
+        height: 45px;
+    }
+
+    nav p.list-text {
+        font-size: 14px;
+    }
+
+    .main-text-container .main-text {
+        font-size: 28px;
+    }
+
+    .games-section {
+        max-width: 956px;
+        width: 956px;
+    }
+
+    .games-section-one>.game-one,
+    .games-section-one>.game-two {
+        margin-right: 125px;
+    }
+
+    .game {
+        width: 400px;
+        height: 560px;
+    }
+
+    .games-section .image {
+        width: 400px;
+        height: 200px;
+    }
+
+    .game-inside .main-text {
+        font-size: 20px;
+        padding-bottom: 46px;
+    }
+
+    .secondary-text {
+        font-size: 16px;
+    }
+
+    .padding-1 {
+        margin-top: 80px;
+    }
+
+    .padding-3 {
+        margin-top: 80px;
+    }
+
+    .padding-4 {
+        margin-top: 73px;
+    }
+
+    .download-section {
+        width: 250px;
+    }
+
+    .download-text {
+        font-size: 20px;
+    }
+
+    .download-img {
+        width: 42px;
+    }
+
+    .footer-header-text {
+        font-size: 28px;
+    }
+
+    .footer-text-one, .footer-text-two {
+        font-size: 16px;
+    }
+
+    input[type = "email"], input[type = "password"], input[type = "text"] {
+        width: 290px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    input[type = "submit"] {
+        width: 160px;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .social-fb-link, .social-ig-link {
+        width: 75px;
+    }
+
+    .social-twt-link {
+        width: 77px;
+        margin-right: 17px;
+    }
+
+    .social-yt-link {
+        width: 96px;
+    }
+
+    .copyright-text {
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    .form-container {
+        width: 70%;
+    }
+
+    .form-container-wrapper {
+        margin: 75px 75px;
+    }
+
+    .form-logo {
+        width: 280px;
+    }
+
+    .form-text {
+        font-size: 18px;
+    }
+
+    .form-header-text {
+        font-size: 28px;
+    }
+
+    .close {
+        font-size: 52px;
+    }
+
+    
+
+    .checkbox-text {
+        font-size: 11px;
+    }
+}
