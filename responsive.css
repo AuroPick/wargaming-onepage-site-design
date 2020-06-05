@@ -226,8 +226,17 @@
         padding-bottom: 8px;
     }
 
-    .form {
+    .checkbox-container {
         width: 260px;
+    }
+
+    .checkbox-text {
+        font-size: 12px;
+        width: 219px;
+    }
+
+    .checkmark {
+        align-self: center;
     }
 }
 
@@ -329,5 +338,192 @@
 
     .footer {
         margin-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 716px) {
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section-one, .footer-section-two {
+        margin-right: 0;
+    }
+
+    .footer-section-two {
+        margin-top: 75px;
+    }
+
+    .copyright {
+        padding-right: 0;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    nav ul {
+        width: 100%;
+    }
+
+    nav li.list-items {
+        width: 50%;
+        margin-right: 0;
+        border-radius: 0;
+        background-color: #1B1B1B;
+        border: 1px solid #2b2b2b;
+    }
+
+    nav li.list-items:hover {
+        box-shadow: none;
+    }
+    
+    nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-container {
+        padding: 0;
+    }
+
+    .nav-container {
+        background-color: #1B1B1B;
+    }
+
+    video {
+        width: 80%;
+    }
+
+    .copyright {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    input[type = "email"], input[type = "password"], input[type = "text"] {
+        width: 200px;
+        font-size: 14px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 16px;
+    }
+
+    input[type = "submit"] {
+        width: 100px;
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .form-container-wrapper {
+        margin: 25px 50px;
+    }
+
+    .form-header-text {
+        font-size: 20px;
+    }
+
+    .close {
+        font-size: 40px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .checkbox-container {
+        width: 200px;
+    }
+
+    .checkbox-text {
+        font-size: 10px;
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .main-container .header-main-text {
+        font-size: 26px;
+    }
+
+    .second-text {
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .main-text-container .main-text {
+        font-size: 20px;
+    }
+
+    .game {
+        width: 300px;
+        height: 500px;
+    }
+
+    .games-section .image {
+        width: 300px;
+    }
+
+    .padding-2 {
+        margin-top: 52px;
+    }
+
+    .padding-3 {
+        margin-top: 53px;
+    }
+
+    .padding-4 {
+        margin-top: 80px;
+    }
+
+    .footer-text-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-text-one, .footer-text-two {
+        width: 300px;
+    }
+
+    .form-container-wrapper {
+        margin: 15px 30px;
+    }
+
+    .form-header-text {
+        font-size: 18px;
+    }
+
+    .close {
+        font-size: 36px;
+    }
+
+    input[type = "email"], input[type = "password"], input[type = "text"] {
+        width: 180px;
+    }
+
+    .checkbox-container {
+        width: 180px;
+    }
+
+    .checkbox-text {
+        width: 145px;
+    }
+
+    .form-section {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    input[type = "email"], input[type = "password"], input[type = "text"] {
+        width: 140px;
+    }
+
+    .signup-input {
+        width: 180px !important;
     }
 }
