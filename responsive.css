@@ -42,11 +42,6 @@
         font-size: 28px;
     }
 
-    .games-section {
-        max-width: 956px;
-        width: 956px;
-    }
-
     .games-section-one>.game-one,
     .games-section-one>.game-two {
         margin-right: 125px;
@@ -142,7 +137,7 @@
     }
 
     .form-container-wrapper {
-        margin: 75px 75px;
+        margin: 50px 75px;
     }
 
     .form-logo {
@@ -165,5 +160,174 @@
 
     .checkbox-text {
         font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer-header-text {
+        font-size: 22px;
+    }
+
+    .footer-text-one, .footer-text-two {
+        font-size: 14px;
+    }
+
+    .social-fb-link, .social-ig-link {
+        width: 65px;
+    }
+
+    .social-twt-link {
+        width: 67px;
+        margin-right: 16px;
+    }
+
+    .social-yt-link {
+        width: 86px;
+    }
+
+    .footer-social-section {
+        width: 230px;
+    }
+
+    .subs-email {
+        width: 225px !important;
+        font-size: 18px !important;
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+        
+    }
+
+    .subs-submit {
+        width: 120px !important;
+        font-size: 18px !important;
+        padding: 6px 16px !important;
+    }
+
+    .footer-section-one, .footer-section-two {
+        margin-right: 75px;
+    }
+
+    video {
+        width: 900px;
+    }
+
+    .form-right {
+        display: none;
+    }
+
+    .form-section {
+        justify-content: center;
+    }
+
+    input[type = "email"], input[type = "password"], input[type = "text"] {
+        width: 260px;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .form {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-container .header-main-text {
+        font-size: 32px;
+    }
+
+    .second-text {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    video {
+        width: 700px;
+    }
+    
+    .main-text-container .main-text {
+        font-size: 24px;
+    }
+
+    .games-section .image {
+        width: 340px;
+        height: 170px;
+    }
+
+    .game {
+        width: 340px;
+        height: 520px;
+    }
+
+    .game-inside .main-text {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+
+    .secondary-text {
+        font-size: 14px;
+    }
+
+    .download-section {
+        width: 230px;
+    }
+    
+    .download-img {
+        width: 38px;
+    }
+
+    .download-text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 941px) {
+    .footer-section-three {
+        margin-top: 75px;
+    }
+
+    .copyright {
+        padding-right: 50px;
+    }
+
+    .nav-container {
+        padding: 0 75px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .games-section-one>.game-one, .games-section-one>.game-two {
+        margin-right: 75px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    video {
+        width: 600px;
+    }
+
+    .games-wrapper {
+        padding-top: 100px;
+    }
+
+    .games-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .games-section-one>.game-one, .games-section-one>.game-two {
+        margin-right: 0;
+    }
+
+    .game:nth-child(2) {
+        margin-bottom: 126px;
+    }
+
+    .games-section-two > .game-two {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        margin-top: 300px;
     }
 }

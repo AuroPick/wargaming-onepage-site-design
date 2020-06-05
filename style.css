@@ -271,6 +271,13 @@ video {
     background-color: #b10202;
 }
 
+.download-img {
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+}
+
 .download-text-section {
     padding-left: 21px;
     margin: auto 0;
@@ -314,6 +321,10 @@ video {
     font-size: 24px;
     line-height: 36px;
     color: #DFDFDF;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
 }
 
 /*Footer*/
@@ -330,6 +341,7 @@ video {
     display: flex;
     justify-content: center;
     max-width: 1605px;
+    flex-wrap: wrap;
 }
 
 .footer-header {
