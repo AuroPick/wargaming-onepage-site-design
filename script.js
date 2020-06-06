@@ -23,6 +23,15 @@ window.onclick = function (event) {
         document.getElementById("sign-up").style.display = "none";
         return;
     }
-
 }
 
+window.ontouchend = function (event) {
+    if (event.target == document.getElementById("sign-in")) {
+        document.getElementById("sign-in").style.display = "none";
+        return;
+    }
+    if (event.target == document.getElementById("sign-up")) {
+        document.getElementById("sign-up").style.display = "none";
+        return;
+    }
+}
