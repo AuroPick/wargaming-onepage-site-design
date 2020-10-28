@@ -10,7 +10,7 @@ document.getElementsByClassName("close")[0].addEventListener("click", function (
     document.getElementById("sign-in").style.display = "none";
 })
 
-document.getElementsByClassName("close")[1].addEventListener("click",function () {
+document.getElementsByClassName("close")[1].addEventListener("click", function () {
     document.getElementById("sign-up").style.display = "none";
 })
 
@@ -34,4 +34,8 @@ window.ontouchend = function (event) {
         document.getElementById("sign-up").style.display = "none";
         return;
     }
+}
+
+var hover = (width) => {
+    document.getElementsByClassName("footer-text-one")[0].style.width = width
 }

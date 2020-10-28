@@ -209,7 +209,8 @@ video {
     transition: all 400ms ease-out;
 }
 
-.game:nth-child(2), .game:nth-child(4) {
+.game:nth-child(2),
+.game:nth-child(4) {
     margin-bottom: 0;
 }
 
@@ -284,7 +285,7 @@ video {
 }
 
 .padding-1 {
-    margin-top: 92px;
+    margin-top: 65px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -292,7 +293,7 @@ video {
 }
 
 .padding-2 {
-    margin-top: 46px;
+    margin-top: 37px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -371,7 +372,8 @@ video {
     align-items: center;
 }
 
-.footer-section-one, .footer-section-two {
+.footer-section-one,
+.footer-section-two {
     margin-right: 101px;
 }
 
@@ -400,20 +402,20 @@ video {
     justify-content: center;
 }
 
-.footer-social-section > a:nth-child(1) {
+.footer-social-section>a:nth-child(1) {
     margin-right: auto;
 }
 
-.footer-social-section > a:nth-child(2) {
+.footer-social-section>a:nth-child(2) {
     margin-right: 13px;
 }
 
-.footer-social-section > a:nth-child(3) {
+.footer-social-section>a:nth-child(3) {
     margin-right: 61px;
     margin-top: 29px;
 }
 
-.footer-social-section > a:nth-child(4) {
+.footer-social-section>a:nth-child(4) {
     margin-top: 25px;
 }
 
@@ -424,16 +426,27 @@ video {
     font-size: 18px;
     line-height: 27px;
     color: #DFDFDF;
+    text-align: center;
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
 }
 
-.footer-text-two {
-    margin-top: 69px;
-    width: 337px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-    color: #DFDFDF;
+.google-maps {
+    margin-top: 20px;
+}
+
+.map {
+    transition: all 400ms ease-out;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+}
+
+.map:hover {
+    width: 600px;
+    height: 400px;
 }
 
 .footer-subscribe-section {
@@ -447,19 +460,19 @@ video {
     padding-top: 44px;
 }
 
-input[type = "submit"] {
+input[type="submit"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    }
+}
 
-input[type = "email"] {
+input[type="email"] {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 369px;
     background-color: #2B2B2B;
-    border: none; 
+    border: none;
     color: #DFDFDF;
     font-style: normal;
     font-weight: normal;
@@ -471,11 +484,11 @@ input[type = "email"] {
     -o-transition: all 400ms ease-out;
 }
 
-input[type = "email"]:focus {
+input[type="email"]:focus {
     outline: none;
 }
 
-input[type = "submit"] {
+input[type="submit"] {
     width: 172px;
     padding: 15px 25px;
     background-color: #D10505;
@@ -494,11 +507,11 @@ input[type = "submit"] {
     transition: all 400ms ease-out;
 }
 
-input[type = "submit"]:hover {
+input[type="submit"]:hover {
     background-color: #B10202;
 }
 
-input[type = "submit"]:focus {
+input[type="submit"]:focus {
     outline: none;
 }
 
@@ -522,7 +535,8 @@ input[type = "submit"]:focus {
 
 /*Form*/
 
-.sign-up, .sign-in {
+.sign-up,
+.sign-in {
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -640,7 +654,8 @@ label {
     -o-transition: all 400ms ease-out;
 }
 
-label[for = "password"], label[for = "nickname"] {
+label[for="password"],
+label[for="nickname"] {
     margin-top: 16px;
 }
 
@@ -652,13 +667,13 @@ label[for = "password"], label[for = "nickname"] {
     -o-transition: all 400ms ease-out;
 }
 
-input[type = "password"] {
+input[type="password"] {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 369px;
     background-color: #2B2B2B;
-    border: none; 
+    border: none;
     color: #DFDFDF;
     font-style: normal;
     font-weight: normal;
@@ -670,17 +685,17 @@ input[type = "password"] {
     -o-transition: all 400ms ease-out;
 }
 
-input[type = "password"]:focus {
+input[type="password"]:focus {
     outline: none;
 }
 
-input[type = "text"] {
+input[type="text"] {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 369px;
     background-color: #2B2B2B;
-    border: none; 
+    border: none;
     color: #DFDFDF;
     font-style: normal;
     font-weight: normal;
@@ -692,7 +707,7 @@ input[type = "text"] {
     -o-transition: all 400ms ease-out;
 }
 
-label[class = "checkbox"] {
+label[class="checkbox"] {
     margin-top: 40px;
 }
 
@@ -737,9 +752,6 @@ label[class = "checkbox"] {
     opacity: 0;
 }
 
-#checkbox:checked ~ .checkmark::after {
+#checkbox:checked~.checkmark::after {
     opacity: 1;
-} 
-
-
-
+}
