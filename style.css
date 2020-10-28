@@ -261,7 +261,6 @@ video {
     justify-content: center;
     background-color: #D10505;
     width: 283px;
-    padding: 10px 0px;
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
     -o-transition: all 400ms ease-out;
@@ -269,6 +268,23 @@ video {
 }
 
 .download-section:hover {
+    background-color: #b10202;
+}
+
+.download-link {
+    display: flex;
+    justify-content: center;
+    background-color: #D10505;
+    width: 283px;
+    height: 89px;
+    padding: 10px 0px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+}
+
+.download-link:hover {
     background-color: #b10202;
 }
 
@@ -446,7 +462,7 @@ video {
 
 .map:hover {
     width: 600px;
-    height: 400px;
+    height: 300px;
 }
 
 .footer-subscribe-section {
